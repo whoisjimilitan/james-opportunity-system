@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local database (discoveries are exported to runs/ for version control)
+*.db
+opportunities.db
+
+# Exported runs are version-controlled on purpose; ignore nothing there.
+# Credentials, if ever added for a future approved send step, must never be committed.
+.env
+*.local
