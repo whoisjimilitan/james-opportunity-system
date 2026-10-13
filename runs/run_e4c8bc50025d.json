@@ -1,0 +1,39 @@
+{
+  "run": {
+    "id": "run_e4c8bc50025d",
+    "question": "What arrangement could James become relevant to in West African crisis-intervention or safeguarding training?",
+    "lens": "regional-expansion-training",
+    "status": "CLOSED",
+    "summary": "Blocked: no web-search tool. Verified MHPSS capacity + Charity Commission as a named-contact source; could not verify a specific West Africa expansion signal without search.",
+    "recorded_at": "2026-10-13T08:50:13+00:00"
+  },
+  "hypotheses": [
+    {
+      "id": "hyp_8d516ff561b3",
+      "run_id": "run_e4c8bc50025d",
+      "statement": "A Movement or UK body expanding MHPSS/safeguarding delivery in West Africa may need local facilitators who bridge UK-standard content and West African context",
+      "status": "OPEN",
+      "reasoning": "",
+      "recorded_at": "2026-10-13T08:53:15+00:00"
+    },
+    {
+      "id": "hyp_f8bf51fa0c2a",
+      "run_id": "run_e4c8bc50025d",
+      "statement": "A specific named org has an active West Africa expansion signal (UNVERIFIED: could not confirm without a web-search tool)",
+      "status": "OPEN",
+      "reasoning": "",
+      "recorded_at": "2026-10-13T08:53:15+00:00"
+    }
+  ],
+  "propositions": [],
+  "decisions": [
+    {
+      "id": "dec_0ecb895ac627",
+      "run_id": "run_e4c8bc50025d",
+      "proposition_id": "",
+      "decision": "RESEARCH_MORE",
+      "reasoning": "Verified: MHPSS training capacity exists in the RCRC Movement (pscentre.org); UK Charity Commission returns named trustees + contact routes when the exact entity is queried. NOT verified: any specific org has a live West Africa expansion signal, because this session has no web-search tool. Guessing URLs produced timeouts (RedR, HLA, People in Aid) and one wrong entity (guessed charity number = Dewsbury Education Trust). Per spec 04B, stitching guessed facts would be fabrication. Next step: either add a web-search API (Tavily/SerpAPI/Bing) to hunt real signals, or Jimi names 2-3 target orgs for deep verification.",
+      "recorded_at": "2026-10-13T08:54:03+00:00"
+    }
+  ]
+}
